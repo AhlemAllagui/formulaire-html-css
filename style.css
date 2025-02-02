@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: lavender;
+    display: flex;
+    align-items: center; /* alugne les élément au centre*/
+    justify-content: center;
+    height: 100vh; /* met les element en hauteur et au milieux */ 
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* met tous dans une colonne transparente */ 
+    background-color: #fff; /* met tous dans une colonne blanchee */
+    padding: 10px; /* Agrandit le conteur de la colonne */ 
+    border-radius: 6px; /* arrondi les bodure */ 
+    box-shadow: 0 0 10px; /* effet d'ombre autour du cadre de l'élément */ 
+}
+
+h4 {
+    text-align: center; /* Inscription au centre */ 
+    font-size: 20px; /* Grosssisement de  Inscription*/ 
+}
+
+hr {
+    margin: 10px 0; /* Elargissementd de l'espace entre les lignes */ 
+    background-color: #ccc;
+    border: O; /* pas de bordure */ 
+    height: 1px;
+    width: 100%;
+}
+
+.name-field {
+    display: flex; /* le prenom se met cote à cote du nom */ 
+    width: 100%;
+    justify-content: space-between;
+} 
+
+.name-field div {
+  width: 47%;
+}
+label{
+    margin-bottom: 6px; /* elargissement du formulaire */ 
+}
+input{
+    margin-bottom: 5px;
+    padding: 3px;
+    outline: 0;
+    border: 1px solid rgba(0,0, 0, 0.4); /* noircit le contour des inputs */ 
+}
+input:focus{
+border: 1px solid lavender;
+}
+input[type="submit"]{
+    margin-top: 15px;
+    background-color: lavender; /* color le bouton inscription */ 
+    color: #fff; /* color s'inscrire */ 
+    border: 1px solid lavender;
+    cursor: pointer;
+}
+p{
+   text-align: center; 
+   margin: 5px 0; 
+   font-size: 14px;
+ 
+}
+p a{
+    text-decoration: 0;
+    color: lavender ;
+}
